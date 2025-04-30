@@ -3,6 +3,7 @@ from tree import Tree
 from node import Node
 
 class TestTree(unittest.TestCase):
+    "Test class for Tree class"""
     def setUp(self):
         self.tree = Tree()
         self.tree.add(10)
